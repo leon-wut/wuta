@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>status_publisher</name>
+  <version>0.0.1</version>
+  <description>采集系统状态并以话题发布，同时提供 GUI 显示节点</description>
+  <maintainer email="you@example.com">your_name</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>status_interfaces</depend>
+  <exec_depend>ros2launch</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
